@@ -12,7 +12,8 @@ if __name__ == "__main__":
     create_default_admin()
 
     # Get port from environment variable or use default
-    port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 8080))
+    print(f"Starting server on port {port}")
 
     # Run the Flask app
     app.run(debug=False, host='0.0.0.0', port=port)

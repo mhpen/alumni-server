@@ -4,7 +4,7 @@ services:
     name: alumni-server
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: cd server && gunicorn "src.app:app" --bind 0.0.0.0:$PORT
+    startCommand: cd server && gunicorn "src.app:app" -c gunicorn.conf.py
     envVars:
       - key: MONGODB_URI
         value: mongodb+srv://dsilva:7DaXRzRoueTBa3a5@alumnimanagement.f10hpn9.mongodb.net/?retryWrites=true&w=majority&appName=AlumniManagement
