@@ -11,21 +11,8 @@ load_dotenv()
 app = Flask(__name__)
 
 # Configure CORS to allow requests from frontend with proper preflight handling
-cors_origins = [
-    'http://localhost:3000',  # For local development
-    'https://alumni-client-three.vercel.app',  # Vercel deployment
-    'https://alumni-management-syih.onrender.com',  # Render deployment
-    '*'  # Allow all origins for testing
-]
-
-# Apply CORS to all routes
-CORS(app,
-     resources={r"/*": {
-         "origins": cors_origins,
-         "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-         "allow_headers": ["Content-Type", "Authorization", "Access-Control-Allow-Credentials"],
-         "supports_credentials": True
-     }})
+# Use a simpler CORS configuration that allows all origins
+CORS(app, supports_credentials=True, resources={r"/*": {"origins": "*"}})
 
 # Global OPTIONS request handler
 @app.route('/', defaults={'path': ''}, methods=['OPTIONS'])
@@ -45,7 +32,16 @@ jwt = JWTManager(app)
 # Configure MongoDB
 mongodb_uri = os.getenv('MONGODB_URI', 'mongodb+srv://dsilva:7DaXRzRoueTBa3a5@alumnimanagement.f10hpn9.mongodb.net/?retryWrites=true&w=majority&appName=AlumniManagement')
 database_name = os.getenv('DATABASE_NAME', 'alumni_management')
-client = MongoClient(mongodb_uri)
+
+# Add SSL configuration and connection timeout
+client = MongoClient(
+    mongodb_uri,
+    ssl=True,
+    ssl_cert_reqs='CERT_NONE',  # Disable certificate verification
+    connectTimeoutMS=30000,
+    socketTimeoutMS=30000,
+    serverSelectionTimeoutMS=30000
+)
 db = client[database_name]
 app.config['DATABASE'] = db
 
@@ -75,7 +71,7 @@ def cors_test():
     return jsonify({
         'message': 'CORS is working correctly',
         'origin': request.headers.get('Origin', 'Unknown'),
-        'allowed_origins': cors_origins
+        'allowed_origins': '*'
     })
 
 # Root route for testing
@@ -86,7 +82,7 @@ def root():
         'status': 'online',
         'frontend_url': 'http://localhost:3000',
         'cors_enabled': True,
-        'allowed_origins': cors_origins
+        'allowed_origins': '*'
     })
 
 # Error handlers
