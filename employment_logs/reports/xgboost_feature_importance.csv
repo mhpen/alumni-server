@@ -1,0 +1,153 @@
+feature,importance
+internship_experience,0.37322295
+graduation_year,0.1547487
+gpa,0.1309444
+skill_count,0.021065416
+"cat__skills_Teaching, Writing",0.01806255
+cat__major_Political Science,0.012466801
+cat__degree_Bachelor of Industrial Technology,0.012355481
+"cat__skills_CSS, Python",0.011140018
+cat__location_Batangas City,0.010571482
+"cat__skills_Data Analysis, Lab Techniques",0.010041907
+"cat__skills_Statistics, Mathematica",0.010020176
+cat__degree_Bachelor of Science in Criminology,0.009931093
+"cat__skills_Translation, Writing",0.0097863795
+cat__major_Physics,0.009645049
+"cat__skills_Governance, Budgeting",0.009362471
+cat__degree_Bachelor of Science,0.00901184
+"cat__skills_Feeding Management, Animal Care",0.008953038
+"cat__skills_Writing, Teaching",0.008846618
+cat__degree_Bachelor of Science in Agriculture,0.008554608
+cat__degree_Bachelor of Elementary Education,0.008499882
+"cat__skills_Simulation, Lab Equipment",0.008241236
+"cat__skills_C++, Algorithms",0.008103144
+"cat__skills_Vitals Monitoring, First Aid",0.007829215
+"cat__skills_Lab Equipment, Simulation",0.0076213013
+age,0.0073545477
+"cat__skills_Java, HTML",0.007154123
+"cat__skills_History, Geography",0.00696382
+"cat__skills_SQL, CSS",0.0068845954
+cat__gender_Female,0.0066831866
+"cat__skills_Patient Care, First Aid",0.006613297
+"cat__skills_Data Structures, Algorithms",0.006255061
+cat__major_Computer Science,0.006250951
+cat__location_Nasugbu,0.0062008677
+"cat__skills_Geography, History",0.005996792
+cat__location_Tanauan,0.0057885908
+"cat__skills_Public Speaking, Writing",0.0057089617
+"cat__skills_Algorithms, Java",0.005672821
+cat__location_Lipa,0.0056130416
+"cat__skills_Mathematica, Data Analysis",0.0054829638
+"cat__skills_HTML, Python",0.005477668
+"cat__skills_Quantum Mechanics, Simulation",0.0053181704
+"cat__skills_Editing, Public Speaking",0.005265034
+cat__major_Biology,0.00521953
+"cat__skills_CSS, HTML",0.005070191
+cat__major_Criminology,0.0
+cat__major_Communication,0.0
+cat__major_Animal Science,0.0
+cat__degree_Bachelor of Science in Nursing,0.0
+cat__degree_Bachelor of Arts,0.0
+cat__gender_Male,0.0
+years_since_graduation,0.0
+cat__major_Automotive Technology,0.0
+cat__major_Agronomy,0.0
+cat__degree_Bachelor of Secondary Education,0.0
+cat__degree_Bachelor of Public Administration,0.0
+cat__major_Electrical Technology,0.0
+"cat__skills_Data Analysis, Mathematica",0.0
+"cat__skills_Crop Management, Soil Analysis",0.0
+"cat__skills_Crime Scene Investigation, Law Enforcement",0.0
+"cat__skills_Circuit Design, Wiring",0.0
+"cat__skills_CSS, Java",0.0
+"cat__skills_CSS, SQL",0.0
+"cat__skills_C++, Java",0.0
+"cat__skills_C++, Machine Learning",0.0
+"cat__skills_Diagnostics, Engine Repair",0.0
+"cat__skills_Data Structures, Machine Learning",0.0
+"cat__skills_Editing, Writing",0.0
+"cat__skills_Data Analysis, Microscopy",0.0
+"cat__skills_Data Structures, C++",0.0
+"cat__skills_Data Structures, Java",0.0
+"cat__skills_Data Analysis, PCR",0.0
+"cat__skills_Data Analysis, Statistics",0.0
+"cat__skills_Algorithms, Data Structures",0.0
+"cat__skills_Algorithms, C++",0.0
+cat__major_Social Studies,0.0
+cat__major_Science,0.0
+"cat__skills_Budgeting, Governance",0.0
+"cat__skills_C++, Data Structures",0.0
+"cat__skills_Animal Care, Feeding Management",0.0
+"cat__skills_Algorithms, Machine Learning",0.0
+cat__major_Nursing,0.0
+cat__major_Mathematics,0.0
+cat__major_Information Technology,0.0
+cat__major_Public Administration,0.0
+cat__major_General Education,0.0
+cat__major_Electronics Technology,0.0
+cat__major_English,0.0
+cat__major_Filipino,0.0
+"cat__skills_Lab Equipment, Quantum Mechanics",0.0
+"cat__skills_Java, SQL",0.0
+"cat__skills_Java, Python",0.0
+"cat__skills_Java, Machine Learning",0.0
+"cat__skills_Java, Data Structures",0.0
+"cat__skills_Java, CSS",0.0
+"cat__skills_Java, C++",0.0
+"cat__skills_Java, Algorithms",0.0
+"cat__skills_HTML, CSS",0.0
+"cat__skills_HTML, SQL",0.0
+"cat__skills_HTML, Java",0.0
+"cat__skills_Editing, Literary Analysis",0.0
+"cat__skills_Engine Repair, Diagnostics",0.0
+"cat__skills_First Aid, Patient Care",0.0
+"cat__skills_First Aid, Vitals Monitoring",0.0
+cat__skills_General Skills,0.0
+"cat__skills_Microscopy, Lab Techniques",0.0
+"cat__skills_Microscopy, Data Analysis",0.0
+"cat__skills_PCR, Lab Techniques",0.0
+"cat__skills_Microscopy, PCR",0.0
+"cat__skills_Law Enforcement, Crime Scene Investigation",0.0
+"cat__skills_Literary Analysis, Editing",0.0
+"cat__skills_Lab Techniques, Microscopy",0.0
+"cat__skills_Lab Techniques, Data Analysis",0.0
+"cat__skills_Machine Learning, Algorithms",0.0
+"cat__skills_Machine Learning, C++",0.0
+"cat__skills_Machine Learning, Data Structures",0.0
+"cat__skills_Machine Learning, Java",0.0
+"cat__skills_Mathematica, Statistics",0.0
+"cat__skills_Microcontrollers, Soldering",0.0
+"cat__skills_Literary Analysis, Writing",0.0
+"cat__skills_Lab Techniques, PCR",0.0
+"cat__skills_Python, SQL",0.0
+"cat__skills_Python, Java",0.0
+"cat__skills_Python, HTML",0.0
+"cat__skills_Python, CSS",0.0
+"cat__skills_Public Speaking, Research",0.0
+"cat__skills_Public Speaking, Policy Analysis",0.0
+"cat__skills_Public Speaking, Editing",0.0
+"cat__skills_Policy Analysis, Research",0.0
+"cat__skills_PCR, Data Analysis",0.0
+"cat__skills_Policy Analysis, Public Speaking",0.0
+"cat__skills_Patient Care, Vitals Monitoring",0.0
+"cat__skills_PCR, Microscopy",0.0
+"cat__skills_SQL, Python",0.0
+"cat__skills_Research, Public Speaking",0.0
+"cat__skills_Research, Policy Analysis",0.0
+"cat__skills_Quantum Mechanics, Lab Equipment",0.0
+"cat__skills_Teaching, Translation",0.0
+"cat__skills_Statistics, Data Analysis",0.0
+"cat__skills_Soil Analysis, Crop Management",0.0
+"cat__skills_Soldering, Microcontrollers",0.0
+"cat__skills_Simulation, Quantum Mechanics",0.0
+"cat__skills_SQL, HTML",0.0
+"cat__skills_SQL, Java",0.0
+"cat__skills_Translation, Teaching",0.0
+"cat__skills_Writing, Public Speaking",0.0
+"cat__skills_Writing, Literary Analysis",0.0
+"cat__skills_Writing, Editing",0.0
+"cat__skills_Wiring, Circuit Design",0.0
+"cat__skills_Vitals Monitoring, Patient Care",0.0
+"cat__skills_Writing, Translation",0.0
+cat__location_Lemery,0.0
+cat__gpa_bin_<2.0,0.0

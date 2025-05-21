@@ -1,0 +1,8 @@
+{
+    "estimators": [
+        "random_forest",
+        "xgboost",
+        "gradient_boosting",
+        "neural_network"
+    ]
+}

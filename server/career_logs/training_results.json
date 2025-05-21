@@ -1,0 +1,743 @@
+{
+    "random_forest": {
+        "metrics": {
+            "accuracy": 0.5286666666666666,
+            "precision": 0.18101561052008117,
+            "recall": 0.18018380232565148,
+            "f1_score": 0.18045673054161673
+        },
+        "training_time": 0.5925064086914062,
+        "feature_importance": [
+            {
+                "feature": "num__gpa",
+                "importance": 0.0961197408093068
+            },
+            {
+                "feature": "num__time_to_employment",
+                "importance": 0.08758950993509095
+            },
+            {
+                "feature": "num__age",
+                "importance": 0.06708853264797744
+            },
+            {
+                "feature": "num__graduation_year",
+                "importance": 0.06016530410920502
+            },
+            {
+                "feature": "cat__employed_after_grad_False",
+                "importance": 0.04238479876101803
+            },
+            {
+                "feature": "cat__employed_after_grad_True",
+                "importance": 0.04184276728641469
+            },
+            {
+                "feature": "cat__company_type_Government",
+                "importance": 0.017761592743900028
+            },
+            {
+                "feature": "cat__degree_Bachelor of Science",
+                "importance": 0.017265498620125684
+            },
+            {
+                "feature": "cat__company_type_NGO",
+                "importance": 0.017117434161104676
+            },
+            {
+                "feature": "cat__internship_experience_Yes",
+                "importance": 0.01707221006635413
+            },
+            {
+                "feature": "cat__salary_range_>50k",
+                "importance": 0.01690937638981014
+            },
+            {
+                "feature": "cat__company_type_Startup",
+                "importance": 0.01666423595721305
+            },
+            {
+                "feature": "cat__location_Lipa",
+                "importance": 0.016501018959259806
+            },
+            {
+                "feature": "cat__internship_experience_No",
+                "importance": 0.016419888855209563
+            },
+            {
+                "feature": "cat__company_type_SME",
+                "importance": 0.016365925202118728
+            },
+            {
+                "feature": "cat__salary_range_30k-40k",
+                "importance": 0.01636396081211155
+            },
+            {
+                "feature": "cat__gender_Male",
+                "importance": 0.01625037853631526
+            },
+            {
+                "feature": "cat__company_type_Corporation",
+                "importance": 0.016192780949688488
+            },
+            {
+                "feature": "cat__salary_range_<20k",
+                "importance": 0.01617765640975495
+            },
+            {
+                "feature": "cat__gender_Female",
+                "importance": 0.016149718083430152
+            },
+            {
+                "feature": "cat__location_Batangas City",
+                "importance": 0.01587276721359723
+            },
+            {
+                "feature": "cat__salary_range_40k-50k",
+                "importance": 0.015741370567350296
+            },
+            {
+                "feature": "cat__location_Calaca",
+                "importance": 0.015345570884887937
+            },
+            {
+                "feature": "cat__location_Tanauan",
+                "importance": 0.01524373414890813
+            },
+            {
+                "feature": "cat__location_San Juan",
+                "importance": 0.014888494197126742
+            },
+            {
+                "feature": "cat__industry_Healthcare",
+                "importance": 0.014735385759938237
+            },
+            {
+                "feature": "cat__industry_Education",
+                "importance": 0.01454672645252019
+            },
+            {
+                "feature": "cat__industry_Public Sector",
+                "importance": 0.014437364223885274
+            },
+            {
+                "feature": "cat__industry_Tourism",
+                "importance": 0.014412765396371334
+            },
+            {
+                "feature": "cat__industry_Tech",
+                "importance": 0.014339388284435355
+            },
+            {
+                "feature": "cat__degree_Bachelor of Engineering",
+                "importance": 0.014315669024640742
+            },
+            {
+                "feature": "cat__salary_range_20k-30k",
+                "importance": 0.014240002444611054
+            },
+            {
+                "feature": "cat__degree_Bachelor of Public Administration",
+                "importance": 0.014161740865851207
+            },
+            {
+                "feature": "cat__industry_Finance",
+                "importance": 0.013999534650836126
+            },
+            {
+                "feature": "cat__degree_Bachelor of Industrial Technology",
+                "importance": 0.0139215919113724
+            },
+            {
+                "feature": "cat__industry_Construction",
+                "importance": 0.013877350939811848
+            },
+            {
+                "feature": "cat__degree_Bachelor of Arts",
+                "importance": 0.013567833393645316
+            },
+            {
+                "feature": "cat__major_Education",
+                "importance": 0.011309704630081274
+            },
+            {
+                "feature": "cat__major_Accountancy",
+                "importance": 0.010444003343447196
+            },
+            {
+                "feature": "cat__major_Architecture",
+                "importance": 0.010224170246482369
+            },
+            {
+                "feature": "cat__major_Civil Engineering",
+                "importance": 0.009951148953517348
+            },
+            {
+                "feature": "cat__major_Psychology",
+                "importance": 0.009735870637970016
+            },
+            {
+                "feature": "cat__major_Electrical Engineering",
+                "importance": 0.009717887531330875
+            },
+            {
+                "feature": "cat__major_Business Administration",
+                "importance": 0.009685225507221512
+            },
+            {
+                "feature": "cat__major_Political Science",
+                "importance": 0.009442443164579026
+            },
+            {
+                "feature": "cat__major_Hospitality Management",
+                "importance": 0.009144484340768233
+            },
+            {
+                "feature": "cat__major_Industrial Technology",
+                "importance": 0.00885447427874411
+            },
+            {
+                "feature": "cat__major_Nursing",
+                "importance": 0.008770522390791185
+            },
+            {
+                "feature": "cat__major_Information Technology",
+                "importance": 0.008463362027073247
+            },
+            {
+                "feature": "cat__major_Computer Science",
+                "importance": 0.008207083292795136
+            },
+            {
+                "feature": "num__skills_match",
+                "importance": 0.0
+            },
+            {
+                "feature": "num__skills_count",
+                "importance": 0.0
+            },
+            {
+                "feature": "num__skills_used_count",
+                "importance": 0.0
+            }
+        ]
+    },
+    "xgboost": {
+        "metrics": {
+            "accuracy": 0.53,
+            "precision": 0.18331335310597655,
+            "recall": 0.18264769584267365,
+            "f1_score": 0.1825583847704328
+        },
+        "training_time": 2.8460028171539307,
+        "feature_importance": [
+            {
+                "feature": "cat__employed_after_grad_True",
+                "importance": 0.6266263723373413
+            },
+            {
+                "feature": "cat__employed_after_grad_False",
+                "importance": 0.206663578748703
+            },
+            {
+                "feature": "num__time_to_employment",
+                "importance": 0.004121267702430487
+            },
+            {
+                "feature": "cat__industry_Education",
+                "importance": 0.0036347401328384876
+            },
+            {
+                "feature": "cat__location_Tanauan",
+                "importance": 0.003601111238822341
+            },
+            {
+                "feature": "cat__salary_range_40k-50k",
+                "importance": 0.00359590002335608
+            },
+            {
+                "feature": "cat__major_Hospitality Management",
+                "importance": 0.0035948678851127625
+            },
+            {
+                "feature": "cat__salary_range_20k-30k",
+                "importance": 0.003577962750568986
+            },
+            {
+                "feature": "cat__company_type_NGO",
+                "importance": 0.003563948441296816
+            },
+            {
+                "feature": "cat__major_Industrial Technology",
+                "importance": 0.0035529520828276873
+            },
+            {
+                "feature": "cat__internship_experience_No",
+                "importance": 0.0035458323545753956
+            },
+            {
+                "feature": "cat__company_type_Startup",
+                "importance": 0.0035392248537391424
+            },
+            {
+                "feature": "cat__location_Lipa",
+                "importance": 0.0035384322982281446
+            },
+            {
+                "feature": "cat__company_type_Government",
+                "importance": 0.003526841290295124
+            },
+            {
+                "feature": "cat__major_Architecture",
+                "importance": 0.0035212065558880568
+            },
+            {
+                "feature": "cat__company_type_SME",
+                "importance": 0.003521151375025511
+            },
+            {
+                "feature": "cat__location_San Juan",
+                "importance": 0.0035177834797650576
+            },
+            {
+                "feature": "cat__industry_Healthcare",
+                "importance": 0.003509713103994727
+            },
+            {
+                "feature": "cat__major_Electrical Engineering",
+                "importance": 0.003505576169118285
+            },
+            {
+                "feature": "cat__industry_Tourism",
+                "importance": 0.0034995179157704115
+            },
+            {
+                "feature": "cat__degree_Bachelor of Science",
+                "importance": 0.0034946149680763483
+            },
+            {
+                "feature": "cat__company_type_Corporation",
+                "importance": 0.0034781943541020155
+            },
+            {
+                "feature": "cat__industry_Public Sector",
+                "importance": 0.0034743458963930607
+            },
+            {
+                "feature": "cat__industry_Finance",
+                "importance": 0.0034715288784354925
+            },
+            {
+                "feature": "cat__major_Business Administration",
+                "importance": 0.003471431089565158
+            },
+            {
+                "feature": "num__age",
+                "importance": 0.0034673556219786406
+            },
+            {
+                "feature": "num__gpa",
+                "importance": 0.0034665900748223066
+            },
+            {
+                "feature": "cat__degree_Bachelor of Arts",
+                "importance": 0.003466149792075157
+            },
+            {
+                "feature": "cat__industry_Tech",
+                "importance": 0.0034655712079256773
+            },
+            {
+                "feature": "cat__degree_Bachelor of Engineering",
+                "importance": 0.003463661065325141
+            },
+            {
+                "feature": "cat__internship_experience_Yes",
+                "importance": 0.0034626454580575228
+            },
+            {
+                "feature": "cat__major_Information Technology",
+                "importance": 0.0034593138843774796
+            },
+            {
+                "feature": "cat__gender_Female",
+                "importance": 0.003450968535616994
+            },
+            {
+                "feature": "num__graduation_year",
+                "importance": 0.003445663023740053
+            },
+            {
+                "feature": "cat__salary_range_>50k",
+                "importance": 0.0034456111025065184
+            },
+            {
+                "feature": "cat__major_Political Science",
+                "importance": 0.0034331148490309715
+            },
+            {
+                "feature": "cat__major_Civil Engineering",
+                "importance": 0.0034073595888912678
+            },
+            {
+                "feature": "cat__major_Education",
+                "importance": 0.003405005903914571
+            },
+            {
+                "feature": "cat__degree_Bachelor of Public Administration",
+                "importance": 0.00340273417532444
+            },
+            {
+                "feature": "cat__location_Batangas City",
+                "importance": 0.0034022561740130186
+            },
+            {
+                "feature": "cat__major_Psychology",
+                "importance": 0.003392686601728201
+            },
+            {
+                "feature": "cat__location_Calaca",
+                "importance": 0.003391401143744588
+            },
+            {
+                "feature": "cat__major_Accountancy",
+                "importance": 0.003364086151123047
+            },
+            {
+                "feature": "cat__salary_range_30k-40k",
+                "importance": 0.0033563722390681505
+            },
+            {
+                "feature": "cat__degree_Bachelor of Industrial Technology",
+                "importance": 0.00334759964607656
+            },
+            {
+                "feature": "cat__major_Computer Science",
+                "importance": 0.0033295215107500553
+            },
+            {
+                "feature": "cat__major_Nursing",
+                "importance": 0.003326951526105404
+            },
+            {
+                "feature": "cat__gender_Male",
+                "importance": 0.0032570224720984697
+            },
+            {
+                "feature": "cat__industry_Construction",
+                "importance": 0.0032235560938715935
+            },
+            {
+                "feature": "cat__salary_range_<20k",
+                "importance": 0.0032187190372496843
+            },
+            {
+                "feature": "num__skills_match",
+                "importance": 0.0
+            },
+            {
+                "feature": "num__skills_count",
+                "importance": 0.0
+            },
+            {
+                "feature": "num__skills_used_count",
+                "importance": 0.0
+            }
+        ]
+    },
+    "logistic_regression": {
+        "metrics": {
+            "accuracy": 0.5286666666666666,
+            "precision": 0.18013676912349083,
+            "recall": 0.1788849188632944,
+            "f1_score": 0.17863149924253507
+        },
+        "training_time": 3.0811216831207275,
+        "feature_importance": [
+            {
+                "feature": "cat__employed_after_grad_False",
+                "importance": 1.1874574289586897
+            },
+            {
+                "feature": "cat__employed_after_grad_True",
+                "importance": 1.17565892837098
+            },
+            {
+                "feature": "num__time_to_employment",
+                "importance": 0.3884645089112288
+            },
+            {
+                "feature": "cat__major_Industrial Technology",
+                "importance": 0.18818107682425353
+            },
+            {
+                "feature": "cat__major_Hospitality Management",
+                "importance": 0.18481222907883357
+            },
+            {
+                "feature": "cat__major_Information Technology",
+                "importance": 0.18476066370509142
+            },
+            {
+                "feature": "cat__major_Nursing",
+                "importance": 0.1697140312056657
+            },
+            {
+                "feature": "cat__major_Electrical Engineering",
+                "importance": 0.15966339461199489
+            },
+            {
+                "feature": "cat__major_Accountancy",
+                "importance": 0.13608374545361032
+            },
+            {
+                "feature": "cat__major_Architecture",
+                "importance": 0.11873076397688592
+            },
+            {
+                "feature": "cat__major_Psychology",
+                "importance": 0.11457182103407976
+            },
+            {
+                "feature": "cat__location_Calaca",
+                "importance": 0.10959882866154623
+            },
+            {
+                "feature": "cat__major_Business Administration",
+                "importance": 0.10866432295148054
+            },
+            {
+                "feature": "cat__major_Political Science",
+                "importance": 0.10510620824900663
+            },
+            {
+                "feature": "cat__salary_range_20k-30k",
+                "importance": 0.10486507304609628
+            },
+            {
+                "feature": "cat__major_Computer Science",
+                "importance": 0.10079985586980889
+            },
+            {
+                "feature": "cat__location_San Juan",
+                "importance": 0.09652280983626857
+            },
+            {
+                "feature": "cat__degree_Bachelor of Science",
+                "importance": 0.09363599859574964
+            },
+            {
+                "feature": "cat__industry_Education",
+                "importance": 0.08495081084318644
+            },
+            {
+                "feature": "cat__location_Tanauan",
+                "importance": 0.08150888244288625
+            },
+            {
+                "feature": "cat__industry_Healthcare",
+                "importance": 0.07904412751371263
+            },
+            {
+                "feature": "cat__company_type_Corporation",
+                "importance": 0.07871946883702867
+            },
+            {
+                "feature": "cat__salary_range_40k-50k",
+                "importance": 0.07853378558976115
+            },
+            {
+                "feature": "cat__industry_Construction",
+                "importance": 0.07844705915992543
+            },
+            {
+                "feature": "cat__industry_Tourism",
+                "importance": 0.07422391756873753
+            },
+            {
+                "feature": "cat__degree_Bachelor of Industrial Technology",
+                "importance": 0.07370877343071575
+            },
+            {
+                "feature": "cat__salary_range_<20k",
+                "importance": 0.07221321482738156
+            },
+            {
+                "feature": "cat__degree_Bachelor of Public Administration",
+                "importance": 0.07077941113882495
+            },
+            {
+                "feature": "cat__major_Education",
+                "importance": 0.07032157658026121
+            },
+            {
+                "feature": "cat__location_Lipa",
+                "importance": 0.06767610417124481
+            },
+            {
+                "feature": "cat__major_Civil Engineering",
+                "importance": 0.06694542999450491
+            },
+            {
+                "feature": "cat__salary_range_30k-40k",
+                "importance": 0.0643560096378525
+            },
+            {
+                "feature": "cat__industry_Public Sector",
+                "importance": 0.06405950193309017
+            },
+            {
+                "feature": "cat__industry_Tech",
+                "importance": 0.06072278811410048
+            },
+            {
+                "feature": "cat__degree_Bachelor of Engineering",
+                "importance": 0.05975532273026574
+            },
+            {
+                "feature": "cat__company_type_SME",
+                "importance": 0.058998890747664116
+            },
+            {
+                "feature": "cat__location_Batangas City",
+                "importance": 0.05809528382609766
+            },
+            {
+                "feature": "cat__industry_Finance",
+                "importance": 0.05680232608040412
+            },
+            {
+                "feature": "cat__gender_Male",
+                "importance": 0.05543719578803608
+            },
+            {
+                "feature": "cat__gender_Female",
+                "importance": 0.0529294664667967
+            },
+            {
+                "feature": "cat__salary_range_>50k",
+                "importance": 0.05250389440205789
+            },
+            {
+                "feature": "num__graduation_year",
+                "importance": 0.05204662694675976
+            },
+            {
+                "feature": "cat__company_type_Government",
+                "importance": 0.0515164413609961
+            },
+            {
+                "feature": "cat__company_type_Startup",
+                "importance": 0.05137002187828931
+            },
+            {
+                "feature": "cat__internship_experience_No",
+                "importance": 0.047032709250284
+            },
+            {
+                "feature": "cat__internship_experience_Yes",
+                "importance": 0.04575313819686145
+            },
+            {
+                "feature": "cat__degree_Bachelor of Arts",
+                "importance": 0.041161754894065414
+            },
+            {
+                "feature": "num__gpa",
+                "importance": 0.039775129435326025
+            },
+            {
+                "feature": "num__age",
+                "importance": 0.036419120649617685
+            },
+            {
+                "feature": "cat__company_type_NGO",
+                "importance": 0.031211351293614832
+            },
+            {
+                "feature": "num__skills_match",
+                "importance": 0.0
+            },
+            {
+                "feature": "num__skills_count",
+                "importance": 0.0
+            },
+            {
+                "feature": "num__skills_used_count",
+                "importance": 0.0
+            }
+        ]
+    },
+    "best_model": "xgboost",
+    "num_samples": 7000,
+    "num_features": 53,
+    "num_classes": 11,
+    "class_names": [
+        "Accountant",
+        "Architect",
+        "HR Specialist",
+        "IT Support",
+        "Marketing Officer",
+        "Nurse",
+        "Operations Manager",
+        "Site Engineer",
+        "Software Developer",
+        "Teacher",
+        "Unknown"
+    ],
+    "feature_names": [
+        "num__age",
+        "num__graduation_year",
+        "num__gpa",
+        "num__skills_count",
+        "num__skills_used_count",
+        "num__skills_match",
+        "num__time_to_employment",
+        "cat__gender_Female",
+        "cat__gender_Male",
+        "cat__degree_Bachelor of Arts",
+        "cat__degree_Bachelor of Engineering",
+        "cat__degree_Bachelor of Industrial Technology",
+        "cat__degree_Bachelor of Public Administration",
+        "cat__degree_Bachelor of Science",
+        "cat__major_Accountancy",
+        "cat__major_Architecture",
+        "cat__major_Business Administration",
+        "cat__major_Civil Engineering",
+        "cat__major_Computer Science",
+        "cat__major_Education",
+        "cat__major_Electrical Engineering",
+        "cat__major_Hospitality Management",
+        "cat__major_Industrial Technology",
+        "cat__major_Information Technology",
+        "cat__major_Nursing",
+        "cat__major_Political Science",
+        "cat__major_Psychology",
+        "cat__internship_experience_No",
+        "cat__internship_experience_Yes",
+        "cat__location_Batangas City",
+        "cat__location_Calaca",
+        "cat__location_Lipa",
+        "cat__location_San Juan",
+        "cat__location_Tanauan",
+        "cat__employed_after_grad_False",
+        "cat__employed_after_grad_True",
+        "cat__industry_Construction",
+        "cat__industry_Education",
+        "cat__industry_Finance",
+        "cat__industry_Healthcare",
+        "cat__industry_Public Sector",
+        "cat__industry_Tech",
+        "cat__industry_Tourism",
+        "cat__company_type_Corporation",
+        "cat__company_type_Government",
+        "cat__company_type_NGO",
+        "cat__company_type_SME",
+        "cat__company_type_Startup",
+        "cat__salary_range_20k-30k",
+        "cat__salary_range_30k-40k",
+        "cat__salary_range_40k-50k",
+        "cat__salary_range_<20k",
+        "cat__salary_range_>50k"
+    ]
+}

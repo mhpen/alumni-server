@@ -1,0 +1,141 @@
+{
+    "Agronomy Specialist": {
+        "precision": 0.8085106382978723,
+        "recall": 0.6909090909090909,
+        "f1-score": 0.7450980392156863,
+        "support": 55.0
+    },
+    "Animal Science Specialist": {
+        "precision": 0.8064516129032258,
+        "recall": 0.5102040816326531,
+        "f1-score": 0.625,
+        "support": 49.0
+    },
+    "Automotive Technology Specialist": {
+        "precision": 0.7777777777777778,
+        "recall": 0.7567567567567568,
+        "f1-score": 0.7671232876712328,
+        "support": 37.0
+    },
+    "Biology Specialist": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": 12.0
+    },
+    "Communication Specialist": {
+        "precision": 0.6111111111111112,
+        "recall": 0.4782608695652174,
+        "f1-score": 0.5365853658536586,
+        "support": 23.0
+    },
+    "Computer Science Specialist": {
+        "precision": 0.6956521739130435,
+        "recall": 0.6956521739130435,
+        "f1-score": 0.6956521739130435,
+        "support": 23.0
+    },
+    "Criminology Specialist": {
+        "precision": 0.8131868131868132,
+        "recall": 0.6851851851851852,
+        "f1-score": 0.7437185929648241,
+        "support": 108.0
+    },
+    "Electrical Technology Specialist": {
+        "precision": 0.6551724137931034,
+        "recall": 0.6551724137931034,
+        "f1-score": 0.6551724137931034,
+        "support": 29.0
+    },
+    "Electronics Technology Specialist": {
+        "precision": 0.6052631578947368,
+        "recall": 0.71875,
+        "f1-score": 0.6571428571428571,
+        "support": 32.0
+    },
+    "English Specialist": {
+        "precision": 0.8055555555555556,
+        "recall": 0.6170212765957447,
+        "f1-score": 0.6987951807228916,
+        "support": 47.0
+    },
+    "Filipino Specialist": {
+        "precision": 0.6666666666666666,
+        "recall": 0.47619047619047616,
+        "f1-score": 0.5555555555555556,
+        "support": 21.0
+    },
+    "General Education Specialist": {
+        "precision": 0.7126436781609196,
+        "recall": 0.5961538461538461,
+        "f1-score": 0.6492146596858639,
+        "support": 104.0
+    },
+    "Information Technology Specialist": {
+        "precision": 0.5714285714285714,
+        "recall": 0.8,
+        "f1-score": 0.6666666666666666,
+        "support": 15.0
+    },
+    "Mathematics Specialist": {
+        "precision": 0.7254901960784313,
+        "recall": 0.8409090909090909,
+        "f1-score": 0.7789473684210526,
+        "support": 44.0
+    },
+    "Nursing Specialist": {
+        "precision": 0.646551724137931,
+        "recall": 0.7653061224489796,
+        "f1-score": 0.7009345794392523,
+        "support": 98.0
+    },
+    "Physics Specialist": {
+        "precision": 0.6,
+        "recall": 0.4444444444444444,
+        "f1-score": 0.5106382978723404,
+        "support": 27.0
+    },
+    "Political Science Specialist": {
+        "precision": 0.5789473684210527,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.7096774193548387,
+        "support": 24.0
+    },
+    "Public Administration Specialist": {
+        "precision": 0.8641975308641975,
+        "recall": 0.6086956521739131,
+        "f1-score": 0.7142857142857143,
+        "support": 115.0
+    },
+    "Science Specialist": {
+        "precision": 0.55,
+        "recall": 0.6111111111111112,
+        "f1-score": 0.5789473684210527,
+        "support": 18.0
+    },
+    "Social Studies Specialist": {
+        "precision": 0.5882352941176471,
+        "recall": 0.5263157894736842,
+        "f1-score": 0.5555555555555556,
+        "support": 19.0
+    },
+    "Unemployed": {
+        "precision": 0.5438335809806835,
+        "recall": 0.61,
+        "f1-score": 0.575019638648861,
+        "support": 600.0
+    },
+    "accuracy": 0.6393333333333333,
+    "macro avg": {
+        "precision": 0.6846036126328258,
+        "recall": 0.6549383356153813,
+        "f1-score": 0.6604633683420976,
+        "support": 1500.0
+    },
+    "weighted avg": {
+        "precision": 0.6564635574807725,
+        "recall": 0.6393333333333333,
+        "f1-score": 0.6410833167160186,
+        "support": 1500.0
+    }
+}

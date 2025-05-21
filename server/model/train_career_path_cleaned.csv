@@ -1,0 +1,31 @@
+age,graduation_year,gpa,actual_job_title,years_since_graduation,is_recent_graduate,skill_count,has_technical_skills,has_soft_skills_skills,has_education_skills,has_healthcare_skills,has_business_skills,has_internship,standardized_job_title,degree_BA,degree_BFA,degree_BS,degree_BSE,major_Civil Engineering,major_Communication,major_Computer Science,major_Education,major_Fine Arts,major_Hospitality Management,major_Industrial Engineering,major_Nursing,major_Political Science,major_Social Work,location_Batangas City,location_Calaca,location_Lipa,location_Nasugbu,location_Tanauan,gender_Female,gender_Male,gender_Other,gpa_bin_<2.0,gpa_bin_2.0-2.5,gpa_bin_2.5-3.0,gpa_bin_3.0-3.5,gpa_bin_3.5-4.0
+25,2022,3.8,Software Engineer,1,True,8,True,True,False,False,False,True,Software Engineer,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1
+24,2022,3.5,Web Developer,1,True,6,True,True,False,False,False,True,Web Developer,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
+26,2021,3.2,Data Analyst,2,True,7,True,True,False,False,True,True,Data Analyst,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0
+23,2023,3.9,Junior Developer,0,True,5,True,False,False,False,False,False,Junior Developer,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+27,2020,3.6,Systems Analyst,3,False,9,True,True,False,False,True,True,Systems Analyst,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
+25,2021,3.4,IT Support Specialist,2,True,6,True,True,False,False,False,True,IT Support Specialist,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0
+24,2022,3.7,Frontend Developer,1,True,7,True,True,False,False,False,True,Frontend Developer,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1
+26,2020,3.3,Database Administrator,3,False,8,True,False,False,False,True,True,Database Administrator,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
+28,2019,3.5,Project Manager,4,False,10,True,True,False,False,True,True,Project Manager,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0
+25,2022,3.2,QA Engineer,1,True,6,True,True,False,False,False,True,QA Engineer,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0
+24,2022,3.8,Teacher,1,True,5,False,True,True,False,False,True,Teacher,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1
+26,2021,3.6,Elementary School Teacher,2,True,6,False,True,True,False,False,True,Elementary School Teacher,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0
+27,2020,3.4,School Counselor,3,False,7,False,True,True,True,False,True,School Counselor,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0
+25,2022,3.7,Curriculum Developer,1,True,8,True,True,True,False,False,True,Curriculum Developer,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1
+28,2019,3.5,Education Administrator,4,False,9,False,True,True,False,True,True,Education Administrator,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+24,2022,3.9,Registered Nurse,1,True,6,False,True,False,True,False,True,Registered Nurse,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1
+26,2021,3.7,Clinical Nurse,2,True,7,False,True,False,True,False,True,Clinical Nurse,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1
+27,2020,3.5,Nurse Practitioner,3,False,8,False,True,False,True,False,True,Nurse Practitioner,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+25,2022,3.6,Healthcare Administrator,1,True,9,False,True,False,True,True,True,Healthcare Administrator,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0
+28,2019,3.4,Medical Records Specialist,4,False,7,True,True,False,True,False,True,Medical Records Specialist,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0
+24,2022,3.8,Accountant,1,True,6,True,True,False,False,True,True,Accountant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1
+26,2021,3.6,Financial Analyst,2,True,7,True,True,False,False,True,True,Financial Analyst,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0
+27,2020,3.4,Auditor,3,False,8,True,True,False,False,True,True,Auditor,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0
+25,2022,3.7,Tax Consultant,1,True,7,True,True,False,False,True,True,Tax Consultant,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1
+28,2019,3.5,Finance Manager,4,False,9,True,True,False,False,True,True,Finance Manager,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0
+24,2022,3.9,Marketing Specialist,1,True,6,False,True,False,False,True,True,Marketing Specialist,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1
+26,2021,3.7,Digital Marketing Manager,2,True,8,True,True,False,False,True,True,Digital Marketing Manager,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1
+27,2020,3.5,Social Media Specialist,3,False,7,True,True,False,False,True,True,Social Media Specialist,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0
+25,2022,3.6,Content Strategist,1,True,6,False,True,False,False,True,True,Content Strategist,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0
+28,2019,3.4,Brand Manager,4,False,9,False,True,False,False,True,True,Brand Manager,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0
