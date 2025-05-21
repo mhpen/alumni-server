@@ -1,0 +1,18 @@
+services:
+  # A Flask API service
+  - type: web
+    name: alumni-server
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: cd server && gunicorn "src.app:app"
+    envVars:
+      - key: MONGODB_URI
+        value: mongodb+srv://dsilva:7DaXRzRoueTBa3a5@alumnimanagement.f10hpn9.mongodb.net/?retryWrites=true&w=majority&appName=AlumniManagement
+      - key: DATABASE_NAME
+        value: alumni_management
+      - key: JWT_SECRET_KEY
+        value: your_super_secret_key_for_jwt_tokens
+      - key: PORT
+        value: 10000
+      - key: PYTHON_VERSION
+        value: 3.9.18

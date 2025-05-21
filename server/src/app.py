@@ -13,6 +13,8 @@ app = Flask(__name__)
 # Configure CORS to allow requests from frontend with proper preflight handling
 cors_origins = [
     'http://localhost:3000',  # For local development
+    'https://alumni-client-three.vercel.app',  # Vercel deployment
+    'https://alumni-management-syih.onrender.com',  # Render deployment
     '*'  # Allow all origins for testing
 ]
 

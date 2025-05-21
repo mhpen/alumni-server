@@ -1,1 +1,1 @@
-web: cd server && gunicorn combined_app:combined_app
+web: cd server && gunicorn "src.app:app"
