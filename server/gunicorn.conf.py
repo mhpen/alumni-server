@@ -1,7 +1,7 @@
 import os
 
-# Get port from environment variable or default to 8080
-port = int(os.environ.get("PORT", 8080))
+# Get port from environment variable or default to 10000
+port = int(os.environ.get("PORT", 10000))
 
 # Bind to 0.0.0.0 to listen on all interfaces
 bind = f"0.0.0.0:{port}"
